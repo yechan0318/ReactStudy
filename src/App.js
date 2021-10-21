@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import ScrollBox from "./ScrollBox";
+import IterationSamle from "./IterationSample";
 
 //import MyComponent from "./MyComponent";
 //import Counter from "./Counter";
@@ -8,7 +8,7 @@ import ScrollBox from "./ScrollBox";
 //import EventPracticeClass from "./EventPracticeClass";
 //import EventPracticeProto from "./EventPracticeProto";
 //import VaildationSample from "./VaildationSample"; 
-
+//import ScrollBox from "./ScrollBox";
 
 //const App = () => { 함수형
   class App extends Component{
@@ -26,10 +26,11 @@ import ScrollBox from "./ScrollBox";
     /*<div>
       <ScrollBox ref={(ref) => this.scrollBox=ref}/>
     </div>*/
-      <div>
+      /*<div>
         <ScrollBox ref={(ref) => this.scrollBox=ref}/>
         <button onClick={()=> this.scrollBox.scrollToBottom()}>맨 밑으로</button>
-      </div>
+      </div>*/
+      <IterationSamle />  
       );
     };
   }
