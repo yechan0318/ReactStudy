@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import IterationSamle from "./IterationSample";
+import LifeCyclesSamle from "./LifeCyclesSample";
 
 //import MyComponent from "./MyComponent";
 //import Counter from "./Counter";
@@ -9,9 +9,25 @@ import IterationSamle from "./IterationSample";
 //import EventPracticeProto from "./EventPracticeProto";
 //import VaildationSample from "./VaildationSample"; 
 //import ScrollBox from "./ScrollBox";
+//import IterationSamle from "./IterationSample";
+
+//랜덤 색상을 생성합니디.
+ function getRandomColor() {
+   return '#' + Math.floor(Math.random() * 16777215).toString(16);
+ }
 
 //const App = () => { 함수형
   class App extends Component{
+    state ={
+      color: '#000000'
+    }
+
+    handleClick = () => {
+      this.setState({
+        color: getRandomColor()
+      });
+    }
+
     render(){
     return (
     //<MyComponent name={"혜원아 사랑해"} 
@@ -30,9 +46,14 @@ import IterationSamle from "./IterationSample";
         <ScrollBox ref={(ref) => this.scrollBox=ref}/>
         <button onClick={()=> this.scrollBox.scrollToBottom()}>맨 밑으로</button>
       </div>*/
-      <IterationSamle />  
+     // <IterationSamle />  
+
+        <div>
+          <button onClick={this.handleClick}>랜덤 색상</button>
+          <LifeCyclesSamle color={this.state.color}/>
+        </div>
       );
-    };
+    }
   }
 
 export default App;
