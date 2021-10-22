@@ -51,3 +51,6 @@ class EventPracticeClass extends Component {
 }
 
 export default EventPracticeClass;
+
+//import EventPracticeClass from "./EventPracticeClass";
+//<EventPracticeClass />

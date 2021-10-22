@@ -38,3 +38,6 @@ const IterationSamle = () => {
 };
 
 export default IterationSamle;
+
+//import IterationSamle from "./IterationSample";
+// <IterationSamle />  

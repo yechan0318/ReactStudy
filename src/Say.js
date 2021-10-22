@@ -19,3 +19,6 @@ const Say = () => {
 };
 
 export default Say;
+
+//import Say from "./Say";
+//  <Say />

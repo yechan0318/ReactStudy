@@ -38,3 +38,6 @@ class VaildationSample extends Component{
 }
 
 export default VaildationSample;
+
+//import VaildationSample from "./VaildationSample"; 
+//<VaildationSample />

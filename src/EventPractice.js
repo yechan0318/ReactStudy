@@ -40,3 +40,6 @@ const EventPractice = () => {
 };
 
 export default EventPractice;
+
+//import EventPractice from "./EventPractice";
+//<EventPractice />

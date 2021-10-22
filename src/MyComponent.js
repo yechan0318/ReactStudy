@@ -22,6 +22,10 @@ MyComponent.propTypes = {
     favoriteNumber: PropTypes.number.isRequired
 };
 
-
-
 export default MyComponent;
+
+//import MyComponent from "./MyComponent";
+//<MyComponent name={"혜원아 사랑해"} 
+    //favoriteNumber={1}>
+    //  리액트</MyComponent>
+ //App.js   

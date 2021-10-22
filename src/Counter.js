@@ -54,3 +54,6 @@ class Counter extends Component {
 }
 
 export default Counter;
+
+//import Counter from "./Counter";
+//  <Counter />,

@@ -37,3 +37,13 @@ class ScrollBox extends Component {
 }
 
 export default ScrollBox;
+
+//import ScrollBox from "./ScrollBox";
+
+    /*<div>
+      <ScrollBox ref={(ref) => this.scrollBox=ref}/>
+    </div>*/
+      /*<div>
+        <ScrollBox ref={(ref) => this.scrollBox=ref}/>
+        <button onClick={()=> this.scrollBox.scrollToBottom()}>맨 밑으로</button>
+      </div>*/

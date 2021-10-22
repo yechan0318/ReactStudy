@@ -50,3 +50,6 @@ const EventPracticeProto = () => {
 };
 
 export default EventPracticeProto;
+
+//import EventPracticeProto from "./EventPracticeProto";
+//<EventPracticeProto />
