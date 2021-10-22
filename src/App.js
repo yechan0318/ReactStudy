@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import LifeCyclesSamle from "./LifeCyclesSample";
+import ErrorBoundary from "./ErrorBoundary";
 
 //import MyComponent from "./MyComponent";
 //import Counter from "./Counter";
@@ -50,7 +51,9 @@ import LifeCyclesSamle from "./LifeCyclesSample";
 
         <div>
           <button onClick={this.handleClick}>랜덤 색상</button>
+          <ErrorBoundary>
           <LifeCyclesSamle color={this.state.color}/>
+          </ErrorBoundary>
         </div>
       );
     }
