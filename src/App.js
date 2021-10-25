@@ -1,22 +1,11 @@
-import React, {useState} from "react";
-import Info from "./Info";
+import React from "react";
+import Average from "./Average";
+
+
 
 
 const App = () => { 
-    const [visible, setvisible] = useState(false);
-      return (
-        <div>
-          <button
-            onClick={()=>{
-              setvisible(!visible);
-            }}
-          >
-            {visible ? '숨기기' : '보이기'}
-          </button>
-          <hr />
-          {visible && <Info />}
-        </div>
-      );
-  };
+  return <Average />;
+};
 
 export default App;

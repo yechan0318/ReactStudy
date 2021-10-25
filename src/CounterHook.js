@@ -13,7 +13,7 @@ function reducer(state, action) {
     }
 }
 const CounterHook = () => {
-    const [state, dispatch] = const [state, dispatch] = useReducer(reducer, {value: 0});
+    const [state, dispatch] = useReducer(reducer, {value: 0});
 
     return (
         <div>

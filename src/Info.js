@@ -39,3 +39,22 @@ const Info = () => {
 };
 
 export default Info;
+
+//import Info from "./Info";
+
+/*
+  const [visible, setvisible] = useState(false);
+      return (
+        <div>
+          <button
+            onClick={()=>{
+              setvisible(!visible);
+            }}
+          >
+            {visible ? '숨기기' : '보이기'}
+          </button>
+          <hr />
+          {visible && <Info />}
+        </div>
+        );
+*/
