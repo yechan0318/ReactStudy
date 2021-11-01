@@ -41,3 +41,6 @@ const Average = () => {
 };
 
 export default Average;
+
+//import Average from "./Average";
+//<Average />
