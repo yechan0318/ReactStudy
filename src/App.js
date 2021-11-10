@@ -1,13 +1,17 @@
-import React from "react";
-import Info from "./Info";
+import React, { Component } from "react";
+import SassComponent from "./SassComponent";
 
 
 
 
-const App = () => { 
-  return (
-    <Info />
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <SassComponent />
+      </div>
     );
-};
+  }
+}
 
 export default App;
