@@ -16,3 +16,6 @@ const SassComponent = () => {
 };
 
 export default SassComponent;
+
+//import SassComponent from "./SassComponent";
+//<SassComponent />
